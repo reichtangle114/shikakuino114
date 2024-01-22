@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 haikei">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
@@ -49,7 +49,7 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%A8%E3%83%9F%E3%83%83%E3%83%92%E3%83%BB%E3%83%84%E3%83%BC%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B2%E3%83%B3"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -116,12 +116,14 @@ export default function Home() {
                   font-family: serif;
                   text-align: center;
                   }
-                .unagi{  display: inline-block;
+                .unagi{display: inline-block;
                   background: linear-gradient(90deg, #4158D0, #C850C0 30%, #FFCC70);
                   background: -webkit-linear-gradient(0deg, #4158D0, #C850C0 30%, #FFCC70);
                   -webkit-background-clip: text;
                   -webkit-text-fill-color: transparent;
                   font-size:  40px; 
+                  }
+                .haikei{background-image : url(/apng_hotaru.png);
                         }`}</style>
     </main>
   )
