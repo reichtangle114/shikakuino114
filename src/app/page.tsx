@@ -28,6 +28,7 @@ export default function Home() {
         </div>
       </div>
 
+      <input type="text" name="text" value="みえないもじ"/>
       <div><h1 className='test unagi'>✞ノワール・イストワール✞</h1>
       <br></br>
       <br></br>
