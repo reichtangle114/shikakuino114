@@ -28,6 +28,10 @@ export default function Home() {
         </div>
       </div>
 
+      <label htmlFor="name">リクエスト箱</label>
+      <textarea id="name" name="text" >
+        お気軽に！
+      </textarea>
       <input type="text" name="text" value="みえないもじ"/>
       <div><h1 className='test unagi'>✞ノワール・イストワール✞</h1>
       <br></br>
@@ -124,6 +128,7 @@ export default function Home() {
                   -webkit-text-fill-color: transparent;
                   font-size:  40px; 
                   }
+                .kuromoji{color: black;}
                 .haikei{background-image : url(/apng_hotaru.png);
                         }`}</style>
     </main>
