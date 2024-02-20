@@ -25,11 +25,21 @@ export default function IchiDhyaku() {
         <>
             <p>{diceroll}</p>
             <br></br>
-            <button type="button" onClick={roll}>ダイスを振る</button>
+            <button type="button" className='fuchi' onClick={roll}>ダイスを振る</button>
             <br></br>
             履歴
             <br></br>
             {rireki.map(print)}
+            <style>{`.fuchi{
+                padding: 0.5em 1em;
+                margin: 2em 0;
+                font-weight: bold;
+                color: #6091d3;
+                background: #FFF;
+                border: solid 3px #6091d3;
+                border-radius: 10px;
+            }
+            `}</style>
         </>
     )
 }
