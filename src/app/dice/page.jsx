@@ -12,7 +12,7 @@ export default function IchiDhyaku() {
         let dorekana = Math.floor( Math.random() * (max + 1 - min) ) + min ;
 
         setdiceroll(dorekana)
-        setrireki([...rireki, diceroll])
+        setrireki([...rireki, dorekana])
     }
 
     function print(result) {
@@ -26,6 +26,8 @@ export default function IchiDhyaku() {
             <p>{diceroll}</p>
             <br></br>
             <button type="button" onClick={roll}>ダイスを振る</button>
+            <br></br>
+            履歴
             <br></br>
             {rireki.map(print)}
         </>
