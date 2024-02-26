@@ -1,12 +1,12 @@
 'use client'
 import { useState } from "react"
 
-export default function sankaku() {
+export default function Sankaku() {
     const [hen, hennyuu] = useState("");
     const [menseki, menin] = useState("");
     const [syu, syuin] = useState("");
 
-    function keisan(){
+    function Keisan(){
         let nagasa = parseInt(hen);
         let men = nagasa * ((nagasa/2) * Math.sqrt(3)) / 2;
         let sanpen = nagasa * 3;
@@ -14,7 +14,7 @@ export default function sankaku() {
         syuin(sanpen);
     }
 
-    function reset() {
+    function Reset() {
         hennyuu("")
     }
 
