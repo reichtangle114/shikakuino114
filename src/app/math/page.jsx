@@ -22,8 +22,8 @@ export default function Sankaku() {
         <>
             1辺の長さ:<input id="hen" className='kuromoji' type="text" value={hen} onChange={(event) => { hennyuu(event.target.value) }} />
             <br></br>
-            <button type="button" onClick={keisan}>計算</button>
-            <button type="button" onClick={reset}>クリア</button>
+            <button type="button" onClick={Keisan}>計算</button>
+            <button type="button" onClick={Reset}>クリア</button>
             <br></br>
             <br></br>
             面積:{menseki}
