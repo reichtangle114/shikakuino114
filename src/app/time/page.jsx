@@ -53,6 +53,7 @@ export default function Time() {
                 setaverage(heikinh + ":" + heikinm.toString().padStart( 2, '0') + ":" + heikins.toString().padStart( 2, '0'))   
                 jikannyuu("")
                 setkai(kai)
+                console.log(allSecond)
             }
         
      }
@@ -67,7 +68,7 @@ export default function Time() {
 
     function reset() {
         rireki.length =0;
-        jikannyuu("時：分 終了時は00:00:00 を入力")
+        jikannyuu("")
         sethdall(0)
         setall("計算中")
         setkai(0)
